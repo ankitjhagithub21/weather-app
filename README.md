@@ -9,7 +9,7 @@ A weather application built using Bootstrap, JavaScript, and OpenWeatherMap API.
 
 ## Getting Started
 1. Clone the repository:
- (``` git clone https://github.com/yourusername/weather-app.git ''') 
+ (``` git clone https://github.com/ankitjhagithub21/weather-app.git ''') 
 2. Go to the project directory:
 ('''cd weather-app ''')
 3. Open index.html in your browser
