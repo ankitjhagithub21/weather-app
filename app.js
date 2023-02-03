@@ -3,7 +3,7 @@ const API_KEY = "eb3e45369ea4ca4b45dd43ba83cf4c68";
 const units = "metric";
 
 async function getWeather(API_KEY, city, units) {
-    const response = await fetch(`http://api.openweathermap.org/data/2.5/weather?q=${city}&units=${units}&appid=${API_KEY}`);
+    const response = await fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city}&units=${units}&appid=${API_KEY}`);
     return await response.json();
 }
 
