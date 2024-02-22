@@ -33,7 +33,7 @@ input.addEventListener('keyup',(e)=>{
 
 
 const getWeather= async (city) => {
-    const res = await fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=eb3e45369ea4ca4b45dd43ba83cf4c68&units=metric`);
+    const res = await fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=Your_API_KEY&units=metric`);
     const data = await res.json()
     weather.innerHTML = Math.ceil(data.main.temp);
     humidity.innerHTML = data.main.humidity;
